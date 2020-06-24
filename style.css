@@ -1,0 +1,70 @@
+html {
+    height: 100%;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    background-color:  #2c3e50;
+    text-transform: lowercase;
+    letter-spacing: 1px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+}
+
+.hero {
+    color: #1c1c1c;
+    overflow: hidden;
+    width: 100%;
+    padding: 1em;
+    animation: fadein 1s cubic-bezier(0.075, 0.82, 0.165, 1);
+}
+.hero__container {
+    background-color: white;
+    padding: 1em 3em;
+    box-sizing: border-box;
+    margin: 0 auto;
+    max-width: 1024px;
+    width: 100%;
+    border-radius: 4px;
+    box-shadow: 0 0 7px 0 rgba(0, 0, 0, .2);
+}
+.hero__details {
+    display: flex;
+    white-space: nowrap;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+}
+.hero__contact {
+    margin: 0 10vw 0 0;
+}
+.hero__projects {
+}
+
+.link {
+    text-decoration: none;
+    position: relative;
+    color: #ff8da1;
+    padding: 0 5px;
+    margin: 0 -5px;
+    box-sizing: border-box;
+    border-radius: 2px;
+}
+.link:focus,
+.link:hover {
+    background-color: #ff8da1;
+    color: white;
+}
+
+@keyframes fadein {
+    from {
+        opacity: 0;
+        transform: translate3d(0, 200px, 0);
+    }
+    to {
+        opacity: 1;
+        transform: translate3d(0, 0, 0);
+    }
+}
