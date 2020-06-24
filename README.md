@@ -1,1 +1,1 @@
-With thanks to [Rafal](https://github.com/rago4/rago4.github.io)
+With thanks to [Rafal](https://rago4.github.io/)
